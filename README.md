@@ -1,18 +1,19 @@
 <div align="center">
 
   <!-- ================= HERO BANNER ================= -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,22,31&height=250&section=header&text=RAHUL%20MAURYA&fontSize=54&fontAlignY=36&fontColor=00F5FF&desc=%E2%9A%A1%20Principal%20DevSecOps%20Engineer%20%7C%20Distinguished%20Cloud%20Security%20Architect&descAlignY=58&descAlign=50&descSize=20" alt="Rahul Maurya - Principal DevSecOps Engineer" width="100%" />
+  <a href="https://github.com/Dev-opsRahul">
+    <img src="./assets/hero-banner.svg" alt="Rahul Maurya - Principal Cloud Architect & Senior DevSecOps Leader" width="100%" />
+  </a>
 
   <br/><br/>
 
   <!-- ================= STATUS BADGES ================= -->
   <p align="center">
-    <img src="https://img.shields.io/badge/Role-Principal_DevSecOps_Architect-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Role: Principal DevSecOps" />
-    <img src="https://img.shields.io/badge/Experience-13%2B_Years_Enterprise_IT-00D26A?style=for-the-badge&logo=clockify&logoColor=white" alt="Experience: 13+ Years" />
-    <img src="https://img.shields.io/badge/Multi--Cloud-Azure_%E2%80%A2_AWS_%E2%80%A2_GCP-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="Multi-Cloud: Azure AWS GCP" />
-    <img src="https://img.shields.io/badge/Orchestration-Kubernetes_%E2%80%A2_Cilium_eBPF-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes eBPF" />
-    <img src="https://img.shields.io/badge/Security-Zero_Trust_%E2%80%A2_SLSA--3-8A2BE2?style=for-the-badge&logo=sigstore&logoColor=white" alt="Security: Zero Trust & SLSA-3" />
-    <img src="https://img.shields.io/badge/AI_Security-LLMOps_%E2%80%A2_Private_vLLM-FF007F?style=for-the-badge&logo=openai&logoColor=white" alt="AI Security: LLMOps" />
+    <img src="https://img.shields.io/badge/Role-Principal_Cloud_Architect_%26_DevSecOps_Lead-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Role: Principal Cloud Architect" />
+    <img src="https://img.shields.io/badge/Experience-13%2B_Years_Enterprise_IT-00C7FF?style=for-the-badge&logo=clockify&logoColor=black" alt="Experience: 13+ Years" />
+    <img src="https://img.shields.io/badge/Scale-100%2B_Workloads_Migrated-00D26A?style=for-the-badge&logo=azure-devops&logoColor=white" alt="Scale: 100+ Migrations" />
+    <img src="https://img.shields.io/badge/IaC-HashiCorp_Terraform_Enterprise-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="IaC: Terraform" />
+    <img src="https://img.shields.io/badge/Security-Zero_Trust_%26_Key_Vault_HSM-0284C7?style=for-the-badge&logo=azure-keyvault&logoColor=white" alt="Security: Zero Trust" />
     <a href="https://linkedin.com" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
@@ -22,11 +23,16 @@
   <p align="center">
     <b>
       <a href="#-about-me">Executive Summary</a> &nbsp; • &nbsp;
-      <a href="#-13-year-architectural-evolution">13-Yr Evolution</a> &nbsp; • &nbsp;
-      <a href="#-core-technical-competencies">Core Competencies</a> &nbsp; • &nbsp;
-      <a href="#-enterprise-architecture-workflows">Architecture Workflows</a> &nbsp; • &nbsp;
-      <a href="#-ai-devsecops--enterprise-llmops-security">AI & LLMOps Security</a> &nbsp; • &nbsp;
-      <a href="#-featured-flagship-projects">Featured Projects</a> &nbsp; • &nbsp;
+      <a href="#-the-senior-mindset-business--architecture-alignment">Senior Mindset</a> &nbsp; • &nbsp;
+      <a href="#-10-scalability--quality-pillars">10 Quality Pillars</a> &nbsp; • &nbsp;
+      <a href="#-enterprise-governance-identity--caf-management-hierarchy">Governance & CAF</a> &nbsp; • &nbsp;
+      <a href="#-enterprise-hub-and-spoke-networking-architecture">Hub & Spoke</a> &nbsp; • &nbsp;
+      <a href="#-end-to-end-cloud-migration-strategy-100-workloads">100+ Migration</a> &nbsp; • &nbsp;
+      <a href="#-multi-layered-defense-in-depth-security">Security</a> &nbsp; • &nbsp;
+      <a href="#-terraform-landing-zone-automation--state-governance">Terraform IaC</a> &nbsp; • &nbsp;
+      <a href="#-azure-repos--devsecops-pipeline-architecture">DevSecOps</a> &nbsp; • &nbsp;
+      <a href="#-finops-cloud-financial-management">FinOps</a> &nbsp; • &nbsp;
+      <a href="#-vendor-management--delivery-governance">Vendor & RACI</a> &nbsp; • &nbsp;
       <a href="#-github-metrics--activity">Metrics</a> &nbsp; • &nbsp;
       <a href="#-connect--collaborate">Contact</a>
     </b>
@@ -38,399 +44,430 @@
 
 ## 👨‍💻 About Me
 
-I am a **Principal DevSecOps Engineer & Distinguished Cloud Security Architect** with over **13 years of enterprise IT experience** designing, automating, and securing mission-critical infrastructure at scale. My journey spans the entire modern infrastructure lifecycle—from foundational bare-metal systems, high-availability Linux clustering, and large-scale virtualization to enterprise multi-cloud migrations, Zero-Trust network topologies, and hardened Kubernetes platforms.
+I am a **Principal Cloud Architect & Senior DevSecOps Leader** with **13+ years of enterprise IT experience** architecting, automating, and securing mission-critical infrastructure across **Microsoft Azure, AWS, and Hybrid Datacenters**. My career is defined by transforming complex enterprise requirements into secure, cost-optimized, and resilient cloud landing zones while leading cross-functional teams, orchestrating enterprise migrations, and establishing automated governance.
 
-Over the past decade, I have led technical strategy, cloud infrastructure governance, and DevSecOps transformations across **Microsoft Azure, AWS, and Hybrid Cloud environments**, managing multi-million-dollar infrastructure estates while establishing immutable security guardrails.
+### Core Architecture & Leadership Spectrum:
+- **Enterprise Cloud Architecture & Landing Zones:** Designing scalable Azure CAF (Cloud Adoption Framework) Landing Zones and AWS multi-account architectures with management group hierarchies, subscription boundaries, Hub-and-Spoke connectivity, and ExpressRoute peering.
+- **Large-Scale Enterprise Migrations:** Leading the discovery, dependency mapping, TCO estimation, landing zone readiness, cutover execution, and hypercare governance for **100+ enterprise workloads** transitioning from on-prem datacenters to Azure with zero unplanned downtime.
+- **Infrastructure as Code (IaC) & State Governance:** Authoring enterprise-grade, modular Terraform/Terragrunt suites utilizing remote state locking (Azure Blob Lease), speculative planning, automated drift detection, and pre-deployment policy gates.
+- **Shift-Left DevSecOps & Keyless Automation:** Engineering multi-stage YAML pipelines (**Azure DevOps & GitHub Actions**) with integrated secret scanning (**Gitleaks**), static analysis (**TFLint, tfsec, Checkov**), container vulnerability audits (**Trivy**), and **Keyless OpenID Connect (OIDC)** authentication.
+- **Zero-Trust & Defense-in-Depth Security:** Implementing strict network microsegmentation via Azure Firewall Premium (TLS inspection & IDS/IPS), NSGs/ASGs, Azure Bastion, Private Endpoints for all PaaS services, and dynamic secrets management with Azure Key Vault HSM and Privileged Identity Management (PIM).
+- **FinOps & Cloud Financial Governance:** Institutionalizing cost management frameworks—eliminating orphan disks and unassociated IPs, rightsizing compute workloads, modeling Reserved Instances/Savings Plans, and tuning log ingestion (DCR) to drive 20%+ annual cloud savings.
+- **Executive Delivery, Vendor Management & Mentorship:** SOW drafting and review, vendor evaluation matrices, RACI ownership, architecture review boards (ARB), post-incident retrospectives, and upskilling engineering teams.
 
-### What I Do at the Enterprise Level:
-- **Cloud Architecture & Landing Zones:** Designing enterprise-scale Azure CAF Landing Zones and AWS Control Tower architectures spanning multi-subscription/multi-account environments, Hub-and-Spoke connectivity, Azure Virtual WAN, ExpressRoute integration, and network segmentation.
-- **Zero-Trust Identity & Secrets Governance:** Eliminating static secrets across CI/CD and production environments by standardizing on **Keyless OpenID Connect (OIDC)** Workload Identity Federation, Azure Key Vault HSM, HashiCorp Vault dynamic secret injection, and Azure Privileged Identity Management (PIM).
-- **Hardened Kubernetes & Platform Engineering:** Architecting private, multi-tenant Kubernetes clusters (**AKS / EKS**) utilizing **Cilium eBPF CNI** for line-rate L3-L7 microsegmentation, **Istio Service Mesh** for strict mTLS, and **Kyverno / OPA Gatekeeper** for Pod Security Standards (Restricted) admission enforcement.
-- **Shift-Left DevSecOps & Supply Chain Defense:** Engineering automated, multi-stage CI/CD pipelines (**GitHub Actions / Azure DevOps**) enforcing SLSA Level 3 compliance, automated **CycloneDX SBOM** generation (**Syft**), vulnerability scanning (**Trivy / Grype**), and keyless cryptographic signing via **Sigstore (Cosign / Rekor)**.
-- **Policy as Code (PaC) & Automated Compliance:** Authoring automated guardrails using **Terraform / OpenTofu**, **OPA/Rego**, **Checkov**, and **Azure Policy** to enforce continuous compliance against **CIS Benchmarks**, **NIST 800-53**, **SOC 2 Type II**, and **ISO 27001**.
-- **GenAI & LLMOps Security:** Hardening private AI/ML inference infrastructure (**vLLM / NVIDIA Triton**) on GPU-accelerated Kubernetes nodes, implementing prompt injection defense, PII redaction gateways, and cryptographic model provenance verification.
-- **FinOps & Platform SRE:** Conducting cloud cost optimization, spot instance orchestration, automated lifecycle governance, and distributed telemetry with **Cilium Hubble (eBPF)**, **Prometheus**, **Grafana**, and **Falco**.
-
-> **Architectural Philosophy:** *Security is not a downstream inspection phase; it is an immutable, code-defined mathematical constraint engineered into the software and platform lifecycle from day zero.*
+> **Architectural Doctrine:** *Enterprise infrastructure must be treated as immutable software: code-defined, version-controlled, policy-governed, cost-optimized, and deployed with zero manual intervention.*
 
 ---
 
-## 🧭 13-Year Architectural Evolution
+## 🧠 The Senior Mindset: Business & Architecture Alignment
 
-A progressive timeline demonstrating real-world enterprise engineering depth and architectural leadership:
+At the Senior/Principal level, technical decisions are driven by asking: **"What is the business? What is the functional domain?"**
 
-```mermaid
-timeline
-    title 13-Year Enterprise Systems, Cloud Architecture & Security Trajectory
-    section Foundations (2011 - 2016)
-        Enterprise Linux & Bare-Metal : RHEL / CentOS / VMware ESXi : High-Availability Clusters : SAN/NAS Multipathing : Core Routing (BGP/OSPF/VLANs) : SysAdmin Operations
-    section Cloud & DevOps Scale (2016 - 2020)
-        Enterprise Cloud Migrations (Azure/AWS) : Infrastructure as Code (Terraform) : CI/CD Automation (Azure DevOps / GitLab / Jenkins) : Containerization (Docker)
-    section DevSecOps & Platform (2020 - 2024)
-        Multi-Subscription Hub-Spoke Landing Zones : Kubernetes (AKS/EKS) Fleet Architecture : GitOps (ArgoCD) : Policy-as-Code (OPA/Kyverno) : Shift-Left SAST/DAST/SCA
-    section Principal Architect & AI (2024 - Present)
-        Zero-Trust Keyless OIDC Mesh : Cilium eBPF L7 Kernel Observability : SLSA-3 Supply Chain Defense : Private LLMOps & GenAI Security (vLLM/Triton)
+```
+                              [ Experienced Mindset ]
+                                         |
+                   "What is the Business & Functional Domain?"
+                                         |
+            +----------------------------+----------------------------+
+            |                                                         |
+[ Infrastructure Design & Implementation ]     [ Application System Design & Implementation ]
+- Cloud Architecture & Landing Zones           - Microservices vs Monolith
+- DevSecOps & Infrastructure as Code           - API Gateways & Service Mesh
+- Cloud Migration & App Modernization          - State & Caching Strategy
+- Governance, Security, DR, FinOps             - Messaging & Event-Driven Patterns
 ```
 
----
-
-## 📊 Executive Impact & Production Metrics Dashboard
-
-<table>
-  <tr>
-    <td align="center" width="25%">
-      <h3>🏢 13+ Years</h3>
-      <p><b>Enterprise IT Leadership</b><br/>Architected and migrated 100+ mission-critical workloads across hybrid & multi-cloud</p>
-    </td>
-    <td align="center" width="25%">
-      <h3>🔒 0 Breaches</h3>
-      <p><b>Zero-Trust Identity Enforcement</b><br/>Eradicated 100% of static cloud credentials via Keyless OIDC across 350+ pipelines</p>
-    </td>
-    <td align="center" width="25%">
-      <h3>⚡ 99.999%</h3>
-      <p><b>High Availability Architecture</b><br/>Designed multi-region active-active clusters with automated failover & self-healing</p>
-    </td>
-    <td align="center" width="25%">
-      <h3>💰 $2.4M+</h3>
-      <p><b>FinOps Cost Optimization</b><br/>Automated resource lifecycles, rightsizing, and reservation modeling</p>
-    </td>
-  </tr>
-</table>
+### Executive & Leadership Responsibilities:
+* **Leadership & Team Upskilling:** Running knowledge transfer (KT) sessions, mentoring junior and mid-level engineers, leading architectural review boards, and conducting senior technical interview panels.
+* **Vendor & Service Management:** SOW negotiations, deliverable sign-offs, vendor SLA tracking, and operational governance across third-party technology partners.
+* **Pre-Sales & Techno-Functional Proposals:** Technical estimations, Proof of Concept (POC) execution, solution blueprints, and commercial RFP/RFI responses.
+* **Delivery Governance:** Authoring standard operating procedures (SOPs), conducting blameless incident retrospectives, and enforcing enterprise architecture compliance.
 
 ---
 
-## 🛠️ Core Technical Competencies
+## 🏛️ IT Career Tracks & Roles Matrix
 
-<div align="center">
+```
++------------+       +---------------+       +---------+       +----------------------+       +----------------+
+|   Sales    | ----> |   Pre-Sales   | ----> |   TAM   | ----> | Enterprise Architect | ----> | Technical Lead |
+| Commercial |       | Techno-       |       | Tech    |       | Infra + Application  |       | Infra / App    |
+| Focus      |       | Functional    |       | Account |       | Strategy & Design    |       | Execution      |
+|            |       | Proposals     |       | Manager |       |                      |       |                |
++------------+       +---------------+       +---------+       +----------------------+       +----------------+
+```
 
-| Domain | Enterprise Platforms & Tooling |
+* **Sales:** Business development, commercial negotiations, and client executive engagement.
+* **Pre-Sales (Techno-Functional):** RFP/RFI technical responses, solution estimations, architecture proposals, and executive client presentations.
+* **TAM (Technical Account Manager):** Trusted technical advisor, governance, operational escalations, account health, and risk mitigation.
+* **Enterprise Architect:** Holistic enterprise technology blueprint spanning infrastructure, security, data, and application ecosystems.
+* **Technical Lead:** Hands-on technical leadership, sprint execution, IaC/code reviews, and architectural enforcement.
+
+---
+
+## 🎯 10 Scalability & Quality Pillars
+
+Every enterprise cloud solution and migration I architect is evaluated against these ten core pillars:
+
+```
++--------------------------------------------------------------------------------------------------+
+|                                    10 Scalability & Quality Pillars                               |
+|                                                                                                  |
+|  1. Scalable      2. Robust        3. Secure        4. Reliable       5. Portable                |
+|  6. Governed      7. High Avail    8. Cost-Optim    9. Backed Up      10. Compliant & Monitored  |
++--------------------------------------------------------------------------------------------------+
+```
+
+| Pillar | Architectural Implementation Standard |
 | :--- | :--- |
-| **Cloud Platforms & Networking** | ![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white) ![AWS](https://img.shields.io/badge/Amazon_Web_Services-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white) ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white) ![Azure VNet](https://img.shields.io/badge/Azure_VNet_Hub--Spoke-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white) ![Azure Bastion](https://img.shields.io/badge/Azure_Bastion_PaaS-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white) ![Azure Firewall](https://img.shields.io/badge/Azure_Firewall_Premium-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white) ![App Gateway](https://img.shields.io/badge/Application_Gateway_WAF_v2-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white) ![ExpressRoute](https://img.shields.io/badge/ExpressRoute_%2F_DirectConnect-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white) |
-| **Infrastructure as Code (IaC)** | ![HashiCorp Terraform](https://img.shields.io/badge/HashiCorp_Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Terragrunt](https://img.shields.io/badge/Terragrunt-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![OpenTofu](https://img.shields.io/badge/OpenTofu-FFDA1A?style=flat-square&logo=opentofu&logoColor=black) ![Ansible](https://img.shields.io/badge/Ansible_Automation-EE0000?style=flat-square&logo=ansible&logoColor=white) ![Packer](https://img.shields.io/badge/HashiCorp_Packer-02A8EF?style=flat-square&logo=packer&logoColor=white) ![Azure Bicep](https://img.shields.io/badge/Azure_Bicep-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white) |
-| **Containers & Orchestration** | ![Kubernetes](https://img.shields.io/badge/Kubernetes_(AKS_%2F_EKS)-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker_Engine-2496ED?style=flat-square&logo=docker&logoColor=white) ![Helm 3](https://img.shields.io/badge/Helm_3-0F1689?style=flat-square&logo=helm&logoColor=white) ![Kustomize](https://img.shields.io/badge/Kustomize-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Cilium](https://img.shields.io/badge/Cilium_eBPF_CNI-1F8CEB?style=flat-square&logo=cilium&logoColor=white) ![Istio](https://img.shields.io/badge/Istio_Service_Mesh-466BB0?style=flat-square&logo=istio&logoColor=white) |
-| **GitOps & CI/CD Automation** | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions_(OIDC)-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![ArgoCD](https://img.shields.io/badge/ArgoCD_GitOps-EF7B4D?style=flat-square&logo=argo&logoColor=white) ![Azure Pipelines](https://img.shields.io/badge/Azure_Pipelines_YAML-0078D4?style=flat-square&logo=azuredevops&logoColor=white) ![GitLab CI](https://img.shields.io/badge/GitLab_CI%2FCD-FC6D26?style=flat-square&logo=gitlab&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins_Enterprise-D24939?style=flat-square&logo=jenkins&logoColor=white) |
-| **Zero-Trust IAM & Secrets** | ![Azure Key Vault](https://img.shields.io/badge/Azure_Key_Vault_HSM-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white) ![Microsoft Entra](https://img.shields.io/badge/Microsoft_Entra_ID_(OIDC)-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white) ![HashiCorp Vault](https://img.shields.io/badge/HashiCorp_Vault-FFC812?style=flat-square&logo=vault&logoColor=black) ![CyberArk](https://img.shields.io/badge/CyberArk_PAM-002B49?style=flat-square&logo=cyberark&logoColor=white) ![AWS Secrets Manager](https://img.shields.io/badge/AWS_Secrets_Manager-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white) |
-| **Policy as Code & AppSec** | ![Open Policy Agent](https://img.shields.io/badge/OPA_%2F_Rego-4B3B8B?style=flat-square&logo=openpolicyagent&logoColor=white) ![Kyverno](https://img.shields.io/badge/Kyverno_Admission_Control-009688?style=flat-square&logo=kubernetes&logoColor=white) ![Checkov](https://img.shields.io/badge/Bridgecrew_Checkov-24292E?style=flat-square&logo=bridgecrew&logoColor=white) ![tfsec](https://img.shields.io/badge/tfsec-00C7B7?style=flat-square&logo=security&logoColor=white) ![TFLint](https://img.shields.io/badge/TFLint-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Gitleaks](https://img.shields.io/badge/Gitleaks_Secret_Scan-EC5990?style=flat-square&logo=security&logoColor=white) |
-| **Software Supply Chain (SSCS)** | ![Sigstore Cosign](https://img.shields.io/badge/Sigstore_Cosign-4B0082?style=flat-square&logo=sigstore&logoColor=white) ![Rekor Log](https://img.shields.io/badge/Rekor_Transparency_Log-4B0082?style=flat-square&logo=sigstore&logoColor=white) ![Syft SBOM](https://img.shields.io/badge/Syft_CycloneDX_SBOM-00C7B7?style=flat-square&logo=aqua&logoColor=white) ![Grype Scan](https://img.shields.io/badge/Grype_Vulnerability_Scan-00C7B7?style=flat-square&logo=aqua&logoColor=white) ![Aqua Trivy](https://img.shields.io/badge/Aqua_Trivy-0052CC?style=flat-square&logo=aqua&logoColor=white) ![Semgrep](https://img.shields.io/badge/Semgrep_SAST-2B2D42?style=flat-square&logo=semgrep&logoColor=white) |
-| **AI / LLMOps Security** | ![vLLM](https://img.shields.io/badge/vLLM_GPU_Inference-00D26A?style=flat-square&logo=fastapi&logoColor=white) ![NVIDIA Triton](https://img.shields.io/badge/NVIDIA_Triton_Server-76B900?style=flat-square&logo=nvidia&logoColor=white) ![NeMo Guardrails](https://img.shields.io/badge/NeMo_Guardrails_Prompt_Defense-76B900?style=flat-square&logo=nvidia&logoColor=white) ![ModelScan](https://img.shields.io/badge/ModelScan_Tensor_Audit-FF007F?style=flat-square&logo=security&logoColor=white) ![Langfuse](https://img.shields.io/badge/Langfuse_Observability-1F2937?style=flat-square&logo=opentelemetry&logoColor=white) |
-| **SRE, Observability & Kernel** | ![Cilium Hubble](https://img.shields.io/badge/Hubble_eBPF_Telemetry-1F8CEB?style=flat-square&logo=cilium&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana_Enterprise-F46800?style=flat-square&logo=grafana&logoColor=white) ![Falco](https://img.shields.io/badge/Falco_Kernel_Runtime_IDS-00AEC7?style=flat-square&logo=falco&logoColor=white) ![Azure Monitor](https://img.shields.io/badge/Azure_Monitor_%2F_Log_Analytics-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white) |
-| **OS, Kernel & Scripting** | ![Enterprise Linux](https://img.shields.io/badge/RHEL_%2F_CentOS_%2F_Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white) ![Bash Scripting](https://img.shields.io/badge/Bash_Advanced-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) ![Python](https://img.shields.io/badge/Python_Automation-3776AB?style=flat-square&logo=python&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell_Core-5391FE?style=flat-square&logo=powershell&logoColor=white) |
-
-</div>
+| **1. Scalable** | Horizontal auto-scaling using Virtual Machine Scale Sets (VMSS) across Availability Zones and dynamic container scaling (HPA/KEDA). |
+| **2. Robust** | Fault-tolerant design with redundant paths, health probes, automated failure detection, and self-healing mechanisms. |
+| **3. Secure** | Zero-Trust defense-in-depth model across identity, network perimeter, compute runtime, and data encryption (CMK). |
+| **4. Reliable** | Proven recovery patterns, circuit breakers, and validated disaster recovery strategies with verified RTO/RPO targets. |
+| **5. Portable** | Cloud-agnostic IaC templates (Terraform/OpenTofu) and containerized workloads adhering to OCI standards. |
+| **6. Governed** | Cloud Adoption Framework (CAF) compliance enforced by automated Azure Policy initiatives at the Management Group tier. |
+| **7. High Availability** | Multi-zone deployments (ZRS/VMSS) and multi-region pairing backed by Azure Site Recovery (ASR) and global traffic routing. |
+| **8. Cost-Optimized** | Continuous FinOps auditing, compute rightsizing, RI/Savings Plan commitments, and automated off-hours scheduling. |
+| **9. Backed Up** | Immutable Azure Backup vaults, Geo-Redundant Storage (GRS), snapshot policies, and periodic restore verification drills. |
+| **10. Compliant & Monitored** | Centralized Log Analytics workspaces, Azure Monitor Agent (AMA), DCR log filtering, and CIS/NIST 800-53 auditing. |
 
 ---
 
-## 🏛️ Enterprise Architecture Workflows
+## 🏢 Enterprise Governance, Identity & CAF Management Hierarchy
 
-These end-to-end architectural workflows represent production-tested patterns I implement across global cloud infrastructures.
+### Cloud Adoption Framework (CAF) Methodology
+I guide enterprise transformations using the Microsoft CAF framework across six iterative phases:
+* **Strategy:** Documenting business motivations, strategic outcomes, and clear return on investment (ROI).
+* **Plan:** Workload alignment, digital estate rationalization, organizational RACI, and cloud skill readiness.
+* **Ready:** Landing zone preparation, tenant hierarchy, identity synchronization, and network connectivity foundation.
+* **Adopt:** Migration waves (Rehost, Refactor, Rearchitect) and modern application deployment sprints.
+* **Govern:** Continuous guardrails using Azure Policy, cost management alerts, and compliance baselines.
+* **Secure & Manage:** Defender for Cloud integration, automated patch baselines, SIEM integration, and SRE operations.
 
----
+### Tenant & Management Group Hierarchy
 
-### 1. Enterprise Multi-Stage DevSecOps Pipeline (Zero-Trust & Shift-Left)
-*Automating code validation, static policy enforcement, vulnerability scanning, and gated deployments:*
-
-```mermaid
-flowchart LR
-    Dev["👨‍💻 Engineer"] -->|"Git Push / PR"| SCM["📦 GitHub / Azure Repos"]
-    SCM -->|"Webhook Trigger"| Pipeline
-
-    subgraph Pipeline["🔒 Multi-Stage Automated DevSecOps Pipeline"]
-        direction TB
-        subgraph Stage1 ["Stage 1: Shift-Left Lint & SAST"]
-            Gitleaks["🔑 Gitleaks (Secret Scan)"] --> TFLint["📐 TFLint (Syntax Check)"]
-            TFLint --> Semgrep["🔍 Semgrep (SAST Engine)"]
-        end
-
-        subgraph Stage2 ["Stage 2: Policy as Code (PaC)"]
-            Checkov["🛡️ Checkov (CIS Benchmark)"] --> OPA["📜 Conftest / OPA (Rego)"]
-        end
-
-        subgraph Stage3 ["Stage 3: Speculative Execution Plan"]
-            TFInit["⚙️ terraform init (Remote S3/Blob)"] --> TFPlan["📄 terraform plan -out=tfplan"]
-        end
-
-        subgraph Stage4 ["Stage 4: Approval & Keyless Apply"]
-            Gate{"🚦 Production Sign-Off Gate\n(PIM / Senior Review)"} -->|"Approved & Merged"| OIDC["🔐 Keyless OIDC Azure/AWS Login"]
-            OIDC --> TFApply["🚀 terraform apply tfplan"]
-        end
-
-        Stage1 --> Stage2
-        Stage2 --> Stage3
-        Stage3 --> Stage4
-    end
-
-    TFApply --> Infra["☁️ Enterprise Multi-Cloud Landing Zone\n(Hub-Spoke VNets, AKS Nodes, Key Vault HSM)"]
-
-    classDef default fill:#0B132B,stroke:#0078D4,stroke-width:1.5px,color:#F8FAFC;
-    classDef gate fill:#1E293B,stroke:#F59E0B,stroke-width:2px,color:#FEF3C7;
-    classDef target fill:#0C1E3D,stroke:#00C7FF,stroke-width:2px,color:#E0F2FE;
-    class Gate gate;
-    class Infra target;
+```
+                            [ Microsoft Entra ID Tenant ]
+                                          |
+                              [ Tenant Root Group ]
+                                          |
+         +--------------------------------+--------------------------------+
+         |                                |                                |
+[ Platform Management Group ]   [ Landing Zones (Workloads) ]    [ Decommissioned / Sandbox ]
+   |-- Identity (AD/DNS)           |-- Corp (Internal Only)         |-- Sandbox MG
+   |-- Management (Logs/Mon)       |-- Online (Public/DMZ)          |-- Decommissioned MG
+   `-- Connectivity (Hub/Firewall) |-- Dev Subscriptions
+                                   |-- UAT Subscriptions
+                                   `-- Prod Subscriptions
 ```
 
+### Governance Best Practices:
+* **Subscription Isolation Boundaries:** Segregating environments (`Dev`, `UAT`, `Prod`) into distinct subscriptions to prevent noisy neighbors, enforce blast-radius isolation, and simplify cost center billing.
+* **Azure Policy & Initiatives:** Assigning built-in initiatives (e.g., CIS Azure Benchmark, Microsoft Cloud Security Benchmark) at the Management Group level with automated **Deny / AuditIfNotExists** effects and time-bound, documented exemptions.
+* **Identity, RBAC & PIM:** Implementing group-based RBAC via Microsoft Entra ID; enforcing **Privileged Identity Management (PIM)** with Just-In-Time (JIT) role elevation, mandatory justification, and multi-stage managerial approvals.
+
 ---
 
-### 2. Enterprise Hub-and-Spoke Landing Zone Topology
-*Hierarchical cloud governance framework implementing network microsegmentation, perimeter inspection, and zero public IPs on compute workloads:*
+## 🌐 Enterprise Hub-and-Spoke Networking Architecture
+
+Centralized network perimeter providing encrypted hybrid transit, deep packet inspection, and isolated workload communication:
+
+```
+                       [ On-Premises Datacenter ]
+                                   |
+                     (ExpressRoute / S2S VPN Gateway)
+                                   |
++----------------------------------v----------------------------------+
+|                   HUB VNet (Central Connectivity)                   |
+|                                                                     |
+|  +--------------------+   +-------------------+   +--------------+  |
+|  | Azure Firewall /   |   | GatewaySubnet     |   | Private DNS  |  |
+|  | NVA (Inspection)   |   | (VPN/ER Gateway)  |   | Zones        |  |
+|  +---------+----------+   +-------------------+   +--------------+  |
++------------|--------------------------------------------------------+
+             | (VNet Peering + UDR: 0.0.0.0/0 -> Firewall IP)
+             +-----------------------+-----------------------+
+             |                                               |
++------------v------------+                     +------------v------------+
+|  Spoke 1: App VNet      |                     |  Spoke 2: Shared VNet   |
+|  - App Tier Subnets     |                     |  - CI/CD Runners        |
+|  - DB Tier Subnets      |                     |  - Bastion Host         |
+|  - Private Endpoints    |                     |  - Security Tools       |
++-------------------------+                     +-------------------------+
+```
 
 ```mermaid
-flowchart TB
-    MG["🏢 Azure Management Groups / AWS Organizations\n(Enterprise Governance, Hierarchy & Guardrail Policies)"] --> SUB["📋 Dedicated Subscriptions / Accounts\n(Management, Connectivity, Identity & Workload Isolation)"]
-    
-    SUB --> HubVNet["🌐 Connectivity Hub VNet (10.100.0.0/16)\nCentral Transit & Traffic Inspection"]
-    
-    subgraph Hub ["Centralized Perimeter & Security Hub"]
-        HubVNet --> AzFW["🔥 Azure Firewall Premium\n(IDS / IPS Deep Packet Inspection & TLS Termination)"]
-        HubVNet --> Bastion["🛡️ Azure Bastion PaaS Host\n(Encrypted Web RDP/SSH Management)"]
-        HubVNet --> AppGW["⚖️ Application Gateway WAF v2\n(OWASP Top 10 Ingress Protection)"]
+flowchart TD
+    OnPrem["🏢 On-Premises Datacenter"] -->|"ExpressRoute / S2S VPN"| GW["GatewaySubnet\n(VPN / ER Gateway)"]
+
+    subgraph Hub ["🌐 Central Connectivity Hub VNet (10.100.0.0/16)"]
+        GW --> HubRouter["Azure Virtual WAN / Hub Router"]
+        HubRouter --> AzFW["🔥 Azure Firewall Premium\n(IDS / IPS • TLS Inspection • Outbound Egress)"]
+        HubRouter --> Bastion["🛡️ Azure Bastion PaaS Host\n(Encrypted Web RDP/SSH Management)"]
+        HubRouter --> DNS["🔗 Central Private DNS Zones\n(privatelink.vaultcore.azure.net, blob)"]
     end
 
-    HubVNet -->|"Encrypted VNet Peering (Default Route 0.0.0.0/0 -> AzFW)"| SpokeVNet["🏢 Production Workload Spoke VNet (10.200.0.0/16)"]
+    AzFW -->|"Encrypted VNet Peering (UDR 0.0.0.0/0 -> Firewall IP)"| Spoke1
+    AzFW -->|"Encrypted VNet Peering"| Spoke2
 
-    subgraph Spoke ["Hardened Workload Spoke"]
-        SpokeVNet --> Compute["🔒 Private Compute Subnet (10.200.1.0/24)\nZero Public IPs • AKS Nodes & VMSS • Default Deny NSG"]
-        SpokeVNet --> PrivLink["🔗 Private Endpoints Subnet (10.200.2.0/24)\nAzure Key Vault HSM • Storage Blobs • Private Link DNS"]
+    subgraph Spoke1 ["🏢 Spoke 1: Application Workload VNet (10.200.0.0/16)"]
+        AppSubnet["App Tier Subnet (10.200.1.0/24)\nPrivate AKS / VMSS"]
+        DBSubnet["DB Tier Subnet (10.200.2.0/24)\nManaged Azure SQL"]
+        PESubnet["Private Endpoints Subnet (10.200.3.0/24)\nKey Vault HSM & Storage Endpoints"]
+        AppSubnet --> PESubnet
+        AppSubnet --> DBSubnet
     end
 
-    Compute -->|"Internal Secure Traffic"| PrivLink
+    subgraph Spoke2 ["🛠️ Spoke 2: Shared Services VNet (10.300.0.0/16)"]
+        RunnerSubnet["CI/CD Self-Hosted Runners Subnet"]
+        SecSubnet["Security & Vulnerability Scanners"]
+    end
 
     classDef default fill:#0B132B,stroke:#0078D4,stroke-width:1.5px,color:#F8FAFC;
-    classDef top fill:#071426,stroke:#38BDF8,stroke-width:2px,color:#FFFFFF;
     classDef security fill:#17172E,stroke:#00C7FF,stroke-width:2px,color:#E0F2FE;
-    class MG,SUB top;
-    class AzFW,Bastion,PrivLink security;
+    classDef spoke fill:#071426,stroke:#38BDF8,stroke-width:2px,color:#FFFFFF;
+    class AzFW,Bastion,DNS security;
+    class Spoke1,Spoke2 spoke;
 ```
+
+### Key Networking Elements:
+* **IP Address Management (IPAM) & CIDR Planning:** Comprehensive pre-migration address mapping ensuring non-overlapping RFC 1918 CIDRs across on-prem and cloud VNets.
+* **Centralized Traffic Inspection:** User Defined Routes (UDRs) associated with all spoke subnets forcing `0.0.0.0/0` and inter-spoke traffic through the Azure Firewall Premium.
+* **Controlled Ingress & Egress:** Inbound traffic routed through Azure Application Gateway WAF v2 (OWASP Top 10); outbound internet traffic filtered via Azure Firewall application and network rules.
+* **Private Connectivity:** Private Endpoints for all PaaS services (Key Vault, Storage Accounts, SQL Databases) linked to centralized Private DNS Zones in the Hub.
 
 ---
 
-### 3. Production GitOps Kubernetes Architecture (Cilium eBPF & Kyverno)
-*Next-generation Kubernetes platform with kernel-level eBPF networking, declarative GitOps, and dynamic secret sidecar injection:*
+## 🚀 End-to-End Cloud Migration Strategy (100+ Workloads)
+
+Proven enterprise methodology for migrating 100+ applications across Dev, UAT, and Production from on-prem datacenters to Azure:
+
+```
++---------------+     +--------------+     +------------+     +-----------+     +-------------+
+|   Discovery   | --> |  Assessment  | --> | Readiness  | --> |  Cutover  | --> |  Hypercare  |
+| Inventory,    |     | Compatibility|     | Landing    |     | Downtime  |     | 24x7 War    |
+| Dependencies  |     | & TCO ROI    |     | Zone Ready |     | Window    |     | Room Support|
++---------------+     +--------------+     +------------+     +-----------+     +-------------+
+```
 
 ```mermaid
 flowchart LR
-    Git["📦 Git Central Repository\n(Manifests / Helm / Kustomize)"] -->|"mTLS Webhook Sync"| Argo["🔄 ArgoCD Controller\n(Automated Drift Detection & Auto-Healing)"]
-
-    subgraph Cluster ["☸️ Hardened Multi-Tenant Kubernetes Cluster (AKS / EKS)"]
-        Argo --> Admission["🛡️ Kyverno Admission Controller\n(Enforce Pod Security Standards: Restricted)"]
-
-        subgraph DataPlane ["⚡ Kernel-Level eBPF Data Plane (Cilium)"]
-            Admission --> PodA["Workload Pod: Service A\nUID: 10001 • Read-Only RootFS"]
-            PodA <-->|"eBPF L7 Policy (HTTP POST /v1/charge)\nTransparent WireGuard mTLS"| PodB["Workload Pod: Service B\nCapabilities Dropped: ALL"]
-            Hubble["👁️ Cilium Hubble SRE Telemetry"] -.->|"Kernel Flow Metrics"| PodA
-        end
-
-        subgraph Secrets ["🔐 Dynamic Secret Engine"]
-            Vault["🏦 HashiCorp Vault Cluster"] -->|"Sidecar Agent Token Injection"| PodA
-        end
-    end
+    Step1["1️⃣ Discovery\n• Azure Migrate Appliance\n• Complete Asset Inventory\n• Dependency Mapping"] --> Step2["2️⃣ Assessment\n• Readiness & Compatibility\n• TCO & ROI Financials\n• Target SKU Sizing"]
+    Step2 --> Step3["3️⃣ Readiness\n• Landing Zone Validated\n• ExpressRoute & Hub Ready\n• Pilot Migration Wave"]
+    Step3 --> Step4["4️⃣ Cutover\n• Delta Replication Sync\n• DNS TTL Reduction\n• Maintenance Window Cutover"]
+    Step4 --> Step5["5️⃣ Hypercare\n• 24x7 War Room Support\n• Performance Baseline\n• Operational Handover"]
 
     classDef default fill:#0B132B,stroke:#0078D4,stroke-width:1.5px,color:#F8FAFC;
     classDef highlight fill:#0C1E3D,stroke:#00C7FF,stroke-width:2px,color:#E0F2FE;
-    class Argo,Admission,Hubble,Vault highlight;
+    class Step3,Step4 highlight;
 ```
+
+### Comprehensive Migration Checklists:
+* **Pre-Migration:** Run Azure Migrate discovery; map multi-tier application dependencies; verify ExpressRoute throughput and MTU; provision target CAF landing zones; establish fallback rollback runbooks.
+* **During-Migration (Cutover Window):** Quiesce on-prem transactional workloads; execute final delta database replication; update DNS records with reduced TTLs; validate end-to-end telemetry.
+* **Post-Migration & Hypercare:** Verify business transactions; conduct performance benchmarking against on-prem baselines; run a 24x7 dedicated war room for 2-4 weeks; finalize operational runbooks.
 
 ---
 
-## 🤖 AI DevSecOps & Enterprise LLMOps Security
+## 🛡️ Multi-Layered Defense-in-Depth Security
 
-As enterprise applications adopt generative AI, securing model weights, inference infrastructure, and training data pipelines against the **OWASP Top 10 for LLMs** is mandatory:
+| Layer | Key Controls & Technologies | Enterprise Implementation Standard |
+| :--- | :--- | :--- |
+| **Identity Level** | Microsoft Entra ID, PIM, Conditional Access, MFA, Managed Identities | Zero permanent administrator rights; Just-In-Time role elevation with multi-factor authentication and automated expiration. |
+| **Networking Level** | Hub-and-Spoke, Azure Firewall Premium, NSGs/ASGs, Private Endpoints, DDoS Standard | Default Deny network security rules; centralized egress TLS inspection; zero public IPs assigned to compute nodes. |
+| **Governance Level** | Azure Policy initiatives, CIS Azure Benchmarks, Defender Secure Score | Automated policy assignment at Management Groups; automated compliance auditing and drift remediation. |
+| **Compute Level** | Microsoft Defender for Servers, Disk Encryption with CMK, automated OS patching | Customer Managed Keys (CMK) via Key Vault HSM; vulnerability scanning; automated patch baselines via Azure Update Manager. |
+
+---
+
+## ⚙️ Terraform Landing Zone Automation & State Governance
+
+Automating infrastructure delivery through repeatable, modular HCL and strict remote state locking:
+
+```
+[ Terraform Git Repo ] 
+         |
+         v
+[ Linting (tflint) & Format (terraform fmt) ]
+         |
+         v
+[ Security Scanning (tfsec / Checkov / Trivy) ]
+         |
+         v
+[ Cost Estimation (Infracost) ]
+         |
+         v
+[ Terraform Plan & Drift Detection Pipeline ]
+         |
+         v
+[ Manual Peer Approval (Production Gate) ]
+         |
+         v
+[ Terraform Apply (Remote State locked via Azure Blob Storage) ]
+```
 
 ```mermaid
 flowchart LR
-    User([👤 User / Client App]) -->|"HTTPS / TLS 1.3"| WAF["🛡️ Enterprise AI Security Gateway\n(OWASP Top 10 for LLMs)"]
-
-    subgraph S1 ["1. In-Line AI Defense Perimeter"]
-        WAF --> Guard["NeMo Guardrails & Prompt Shield\n• Prompt Injection & Jailbreak Defense\n• PII Masking & Data Loss Prevention\n• Token Budgeting & Abuse Rate Limiting"]
-    end
-
-    subgraph S2 ["2. Zero-Trust Private GPU Inference Mesh"]
-        Guard -->|"Mutual TLS (mTLS)"| vLLM["⚡ Private vLLM / NVIDIA Triton Cluster\n• AKS GPU NodePool (NVIDIA H100 / A100)\n• Cilium eBPF L7 Network Policy Isolation\n• Ephemeral Non-Root Containers (UID 10001)"]
-    end
-
-    subgraph S3 ["3. Cryptographic Model Attestation"]
-        Registry[("📦 Private OCI Model Registry\n(HuggingFace / ACR)")] -->|"Safetensors & Pickle Audit"| Scan["🔍 ModelScan & ProtectAI"]
-        Scan -->|"Cosign Keyless Signing"| Rekor["📜 Sigstore Rekor Transparency Log"]
-        Rekor --> vLLM
-    end
-
-    subgraph S4 ["4. LLMOps SRE Telemetry"]
-        vLLM -->|"Distributed Spans"| Telemetry["📊 Langfuse & Grafana Telemetry\n(Latency, Hallucinations, Token Cost)"]
-    end
-
-    classDef default fill:#0B132B,stroke:#0078D4,stroke-width:1.5px,color:#F8FAFC;
-    classDef security fill:#1E293B,stroke:#FF007F,stroke-width:2px,color:#FEF3C7;
-    classDef compute fill:#0C1E3D,stroke:#00D26A,stroke-width:2px,color:#E0F2FE;
-    class Guard,Scan security;
-    class vLLM compute;
-```
-
-**Key Architectural Features:**
-- **Private Isolated Model Serving:** Model inference nodes operate in completely private subnets with zero public internet connectivity; all model weights are stored in encrypted private endpoints.
-- **Model Supply Chain Security:** Every model artifact (PyTorch / Safetensors) undergoes automated vulnerability scanning via `modelscan` and is cryptographically signed with Cosign before being mounted to cluster GPU memory.
-- **L7 eBPF AI Workload Segmentation:** Cilium eBPF network policies restrict AI inference containers to authorized API Gateway microservices only, preventing any lateral movement across the cluster.
-
----
-
-## 🌟 Featured Flagship Projects
-
----
-
-### 1. Azure Enterprise Secure Hub-Spoke Landing Zone (Terraform)
-[![Repository Link](https://img.shields.io/badge/GitHub-Repository_Link-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dev-opsRahul/azure-enterprise-secure-landing-zone)
-[![Terraform](https://img.shields.io/badge/Terraform-%3E%3D1.8.0-7B42BC?style=flat-square&logo=terraform&logoColor=white)](https://github.com/Dev-opsRahul/azure-enterprise-secure-landing-zone)
-[![Azure](https://img.shields.io/badge/Microsoft_Azure-Landing_Zone-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)](https://github.com/Dev-opsRahul/azure-enterprise-secure-landing-zone)
-[![Security: Key Vault](https://img.shields.io/badge/Security-Azure_Key_Vault_HSM-00C7B7?style=flat-square&logo=microsoft-azure&logoColor=white)](https://github.com/Dev-opsRahul/azure-enterprise-secure-landing-zone)
-[![Access: Bastion](https://img.shields.io/badge/Access-Azure_Bastion_PaaS-0284C7?style=flat-square&logo=microsoft-azure&logoColor=white)](https://github.com/Dev-opsRahul/azure-enterprise-secure-landing-zone)
-
-**Description:** An enterprise-ready, modular Azure Landing Zone engineered with Terraform following the Microsoft Cloud Adoption Framework (CAF). Implements multi-subscription isolation, Hub-and-Spoke network topologies, Azure Bastion PaaS perimeter, Azure Firewall Premium traffic inspection, and automated secret retrieval via Azure Key Vault Private Endpoints.
-
-```mermaid
-flowchart LR
-    Admin["👨‍💻 Cloud Administrator"] -->|"HTTPS / Port 443"| Bastion["🛡️ Azure Bastion\n(AzureBastionSubnet)"]
-    Bastion -->|"Private SSH / RDP"| VM["🔒 Hardened Compute Host\n(snet-compute - No Public IP)"]
-    VM -->|"Private Link (RFC 1918)"| KV["🔐 Azure Key Vault\n(Private Endpoint & Private DNS)"]
-    KV -.->|"Inject Admin Credentials"| VM
-
-    classDef default fill:#0B132B,stroke:#0078D4,stroke-width:1.5px,color:#F8FAFC;
-    classDef sec fill:#17172E,stroke:#00C7FF,stroke-width:2px,color:#E0F2FE;
-    class Bastion,KV sec;
-```
-
-**Key Architectural Features:**
-- **Zero Public IP Compute Surface:** Linux and Windows compute nodes have no public IP addresses assigned; management access is routed exclusively through Azure Bastion over TLS.
-- **Dynamic Secret Injection:** Administrative credentials are dynamically injected into virtual machine configurations from Azure Key Vault at runtime, completely eliminating hardcoded passwords in `.tfvars` or git history.
-- **Modular Child-and-Root IaC Architecture:** Fully parameterized, DRY Terraform modules (`modules/network`, `modules/key_vault`, `modules/bastion`, `modules/compute`) utilizing dynamic `for_each` maps and strict variable validation.
-- **Shift-Left Security Compliance:** 100% compliant with CIS Azure Benchmark v2.0 verified by automated Checkov and tfsec pipeline assertions.
-
-```hcl
-# Hardened Azure Key Vault Module with Private Endpoint & RBAC
-resource "azurerm_key_vault" "kv" {
-  name                          = var.key_vault_name
-  location                      = var.location
-  resource_group_name           = var.resource_group_name
-  tenant_id                     = var.tenant_id
-  sku_name                      = "premium"
-  soft_delete_retention_days    = 90
-  purge_protection_enabled      = true
-  public_network_access_enabled = false # Strict Zero-Trust: Public access blocked
-  enable_rbac_authorization     = true
-
-  network_acls {
-    bypass         = "AzureServices"
-    default_action = "Deny"
-  }
-}
-```
-
----
-
-### 2. Multi-Stage Terraform CI/CD Automation Pipeline (Keyless OIDC)
-[![Repository Link](https://img.shields.io/badge/GitHub-Repository_Link-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dev-opsRahul/LZ_Monilithic_Pipeline)
-[![CI/CD: GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)](https://github.com/Dev-opsRahul/LZ_Monilithic_Pipeline)
-[![Auth: Keyless OIDC](https://img.shields.io/badge/Authentication-Keyless_OIDC-00D26A?style=flat-square&logo=security&logoColor=white)](https://github.com/Dev-opsRahul/LZ_Monilithic_Pipeline)
-[![Compliance: Checkov](https://img.shields.io/badge/Compliance-Checkov_%26_TFLint-7B42BC?style=flat-square&logo=bridgecrew&logoColor=white)](https://github.com/Dev-opsRahul/LZ_Monilithic_Pipeline)
-
-**Description:** Enterprise-grade GitHub Actions pipeline engineering a deterministic, multi-stage deployment lifecycle for cloud infrastructure. Completely eliminates permanent service principal secrets by implementing **Microsoft Entra ID Workload Identity Federation (Keyless OIDC)**.
-
-```mermaid
-flowchart LR
-    PR["📥 Pull Request Opened"] --> Gate1["Stage 1: Validation & Linting\n• terraform fmt -check\n• tflint --recursive\n• gitleaks detect"]
-    Gate1 --> Gate2["Stage 2: Static Security Scan\n• checkov -d . --framework terraform\n• tfsec . (SARIF Report Upload)"]
-    Gate2 --> Gate3["Stage 3: Speculative Plan\n• OIDC Keyless Azure Login\n• terraform plan -out=tfplan"]
-    Gate3 --> Review{"Stage 4: Approval Gate\n• Tech Lead Review\n• Production PIM Sign-Off"}
-    Review -->|"Merge to Main"| Gate4["Stage 5: Deterministic Apply\n• Download Plan Artifact\n• terraform apply tfplan"]
-
-    classDef default fill:#0B132B,stroke:#0078D4,stroke-width:1.5px,color:#F8FAFC;
-    classDef gate fill:#1E293B,stroke:#F59E0B,stroke-width:2px,color:#FEF3C7;
-    class Review gate;
-```
-
-**Key Architectural Features:**
-- **Keyless OpenID Connect (OIDC):** Replaces legacy, high-risk permanent service principal passwords with short-lived (1-hour) federated OIDC tokens issued by GitHub Actions and validated by Microsoft Entra ID.
-- **Deterministic Execution Planning:** The `terraform-plan` job uploads the generated `tfplan` binary as an encrypted workflow artifact; the `terraform-apply` job downloads and executes this exact artifact, eliminating state race conditions.
-- **Automated Security Gates:** Incorporates Gitleaks for secret detection, TFLint for cloud-specific rule validation, and Checkov for CIS compliance, uploading SARIF alerts directly to the GitHub Security dashboard.
-
-```yaml
-# Keyless Azure Login via OIDC Workload Identity Federation
-- name: 'Authenticate to Azure via Keyless OIDC'
-  uses: azure/login@v2
-  with:
-    client-id: ${{ secrets.AZURE_CLIENT_ID }}
-    tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-    subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-```
-
----
-
-### 3. Azure Remote Terraform State Management & Concurrency Locking
-[![Reference Architecture](https://img.shields.io/badge/Architecture-Enterprise_State_Governance-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)](#)
-[![Backend: Azure Blob](https://img.shields.io/badge/Azure_Blob_Storage-Encrypted_Backend-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)](#)
-[![Locking: Blob Lease](https://img.shields.io/badge/Concurrency-Blob_Lease_Locking-00C7FF?style=flat-square&logo=terraform&logoColor=white)](#)
-[![RBAC](https://img.shields.io/badge/Access-Azure_RBAC_Only-0284C7?style=flat-square&logo=security&logoColor=white)](#)
-
-**Description:** Production-grade Terraform state management architecture designed to eliminate local state files, guarantee team concurrency protection, and protect sensitive state data through Azure native security controls.
-
-```mermaid
-flowchart LR
-    Pipeline1["🚀 Pipeline Execution A"] -->|"terraform plan/apply"| Blob["📦 Azure Blob Storage\n(Container: tfstate)"]
-    Pipeline2["⚠️ Pipeline Execution B"] -.->|"Lease Lock Conflict\n(HTTP 409: In Progress)"| Blob
-    Blob -->|"Exclusive Lease Lock"| Lock["🔒 Azure Blob Lease\n(Prevents State Drift & Concurrency Race)"]
-    Blob -->|"Server-Side AES-256"| StateFile["landing-zone.tfstate (Encrypted at Rest)"]
+    Pipeline1["🚀 Pipeline Run A"] -->|"terraform plan/apply"| Blob["📦 Azure Blob Storage\n(Container: tfstate)"]
+    Pipeline2["⚠️ Pipeline Run B"] -.->|"Lease Lock Conflict\n(HTTP 409: In Progress)"| Blob
+    Blob -->|"Exclusive Lease Lock"| Lock["🔒 Azure Blob Lease\n(Prevents State Drift & Concurrency Collisions)"]
+    Blob -->|"Server-Side AES-256"| StateFile["landing-zone.tfstate\n(Encrypted at Rest)"]
 
     classDef default fill:#0B132B,stroke:#0078D4,stroke-width:1.5px,color:#F8FAFC;
     classDef lock fill:#1E293B,stroke:#F59E0B,stroke-width:2px,color:#FEF3C7;
     class Lock lock;
 ```
 
-**Key Architectural Features:**
-- **Centralized Azure Storage Backend:** Stores Terraform state in dedicated Azure Blob Storage containers, removing sensitive state data from local workstations and version control.
-- **Native Concurrency Locking:** Leverages Azure Blob Storage automatic lease locking to prevent simultaneous pipeline executions from corrupting infrastructure state.
-- **Encryption in Transit & At Rest:** Enforces TLS 1.2+ for all backend communication and transparent server-side AES-256 data encryption.
-- **Environment Isolation:** Segregates environment states (`preprod`, `prod`) into separate storage containers or state keys with fine-grained **Azure RBAC** role assignments.
-
+### Production Remote State Backend Configuration:
 ```hcl
-# Production-ready Azure Blob Storage remote backend configuration
+# Enterprise Azure Blob Storage Remote Backend with Entra ID Authentication
 terraform {
+  required_version = ">= 1.8.0"
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "~> 3.100.0"
+    }
+  }
+
   backend "azurerm" {
     resource_group_name  = "rg-terraform-state-mgmt"
     storage_account_name = "sttfstatelz001"
     container_name       = "tfstate"
-    key                  = "landing-zone.preprod.tfstate"
-    use_azuread_auth     = true # Uses Entra ID / RBAC authentication
+    key                  = "enterprise.landingzone.tfstate"
+    use_azuread_auth     = true # RBAC / Entra ID Keyless Authentication
   }
 }
 ```
 
+* **Remote State Governance:** State stored in dedicated, private Azure Storage Accounts with blob lease locking, geo-redundancy, and soft delete protection.
+* **Automated Drift Detection:** Scheduled nightly pipelines running `terraform plan -detailed-exitcode` to detect unmanaged console changes.
+
 ---
 
-### 4. End-to-End SLSA-3 Software Supply Chain Defense Pipeline
-[![Repository Link](https://img.shields.io/badge/GitHub-Repository_Link-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dev-opsRahul/slsa3-supply-chain-pipeline)
-[![Supply Chain: SLSA-3](https://img.shields.io/badge/Supply_Chain-SLSA_Level_3-8A2BE2?style=flat-square&logo=sigstore&logoColor=white)](https://github.com/Dev-opsRahul/slsa3-supply-chain-pipeline)
-[![Signing: Cosign](https://img.shields.io/badge/Signing-Sigstore_Cosign-4B0082?style=flat-square&logo=sigstore&logoColor=white)](https://github.com/Dev-opsRahul/slsa3-supply-chain-pipeline)
-[![SBOM: Syft](https://img.shields.io/badge/SBOM-Syft_CycloneDX-00C7B7?style=flat-square&logo=aqua&logoColor=white)](https://github.com/Dev-opsRahul/slsa3-supply-chain-pipeline)
-[![Scanner: Grype](https://img.shields.io/badge/Vulnerability-Grype_%26_Trivy-0052CC?style=flat-square&logo=aqua&logoColor=white)](https://github.com/Dev-opsRahul/slsa3-supply-chain-pipeline)
+## 🔄 Azure Repos & DevSecOps Pipeline Architecture
 
-**Description:** Standardized containerization and deployment workflow implementing multi-stage Docker builds, image hardening, vulnerability scanning, automated CycloneDX SBOM generation, keyless cryptographic signing with Cosign, and admission verification at the Kubernetes cluster level.
+* **Branching Strategy:** Trunk-based development utilizing short-lived feature branches (`feature/*`, `fix/*`).
+* **Branch Protection Policies:** Mandatory Pull Request (PR) reviews with minimum 2 senior approvals; `CODEOWNERS` enforcement; linear commit history; direct pushes and branch deletion strictly disabled on `main`.
+* **Multi-Stage YAML Pipeline Lifecycle:**
+  1. **Validate & Lint:** `terraform fmt -check`, `tflint --recursive`.
+  2. **Security & Secret Scanning:** Gitleaks, Checkov (CIS Benchmarks), Aqua Trivy.
+  3. **Cost Estimation:** Infracost breakdown posted as a pull request comment.
+  4. **Speculative Plan:** Generates and publishes encrypted `tfplan` artifact.
+  5. **Approval Gate:** Multi-party sign-off required for UAT and Production rollouts.
+  6. **Keyless Apply:** OIDC-authenticated deployment executing the exact saved plan artifact.
 
-```mermaid
-flowchart LR
-    Source["📥 Source Code + Verified Commit"] --> Build["1️⃣ Hermetic Multi-Stage Build\n(Minimal Distroless Base)"]
-    Build --> SBOM["2️⃣ Syft SBOM Generation\n(CycloneDX Format)"]
-    SBOM --> Scan["3️⃣ Grype / Trivy Vulnerability Scan\n(Fail on CRITICAL CVEs)"]
-    Scan --> Push["4️⃣ Push to Private Registry\n(Azure ACR / GHCR)"]
-    Push --> Sign["5️⃣ Cosign Keyless Signing\n(OIDC & Sigstore Rekor Log)"]
-    Sign --> Admission["6️⃣ Kyverno Admission Gate\n(Verify Signature & Reject Unsigned)"]
+```yaml
+# Hardened Keyless OIDC Azure Deployment Pipeline
+name: "Enterprise DevSecOps IaC Pipeline"
 
-    classDef default fill:#0B132B,stroke:#0078D4,stroke-width:1.5px,color:#F8FAFC;
-    classDef highlight fill:#0C1E3D,stroke:#00C7FF,stroke-width:2px,color:#E0F2FE;
-    class Scan,Sign,Admission highlight;
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+permissions:
+  id-token: write
+  contents: read
+  security-events: write
+
+jobs:
+  security-audit:
+    name: "Shift-Left Security & Linting"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Gitleaks Secret Scan
+        uses: gitleaks/gitleaks-action@v2
+      - name: Run Checkov Static Analysis
+        uses: bridgecrewio/checkov-action@master
+        with:
+          framework: terraform
+          output_format: sarif
+          output_file_path: results.sarif
+
+  terraform-deploy:
+    name: "Keyless Terraform Apply"
+    needs: [security-audit]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 'Authenticate to Azure via Keyless OIDC'
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      - name: Terraform Apply
+        run: |
+          terraform init
+          terraform apply -auto-approve
 ```
 
-**Key Architectural Features:**
-- **Multi-Stage Distroless Dockerfile:** Strips package managers, shells, and unneeded binaries from runtime containers, slashing container attack surfaces by up to 85%.
-- **Automated CycloneDX SBOM Generation:** Produces a machine-readable Software Bill of Materials (SBOM) using Syft on every commit for compliance audits and vulnerability tracking.
-- **Cryptographic Attestations via Cosign:** Signs container images using ephemeral OIDC certificates recorded on the immutable Sigstore Rekor transparency ledger.
-- **Admission-Time Verification:** Clusters enforce Kyverno admission policies that reject any image lacking a verified cryptographic signature and valid SBOM attestation.
+---
+
+## 💰 FinOps (Cloud Financial Management)
+
+Cloud cost efficiency is an ongoing architectural responsibility:
+
+* **Eliminate Waste:** Automated detection and destruction of unattached managed disks, obsolete VM snapshots, unassociated public IPs, and unused virtual network gateways.
+* **Rightsizing:** Resizing over-provisioned virtual machines and App Service plans based on 30-day P95 CPU/Memory utilization metrics.
+* **Commitment Discounts:** Procuring 1-year and 3-year Azure Reserved Instances (RIs) and Azure Savings Plans for steady-state workloads.
+* **Automated Scheduling:** Automated start/stop runbooks powered by Azure Automation / Logic Apps shutting down non-production environments outside business hours.
+* **Log Ingestion Tuning:** Reviewing Log Analytics workspace ingestion tables; deploying Data Collection Rules (DCR) to filter noisy diagnostic and performance counters at the source.
+
+---
+
+## 🔁 Backup, Disaster Recovery & High Availability
+
+* **Storage Redundancy Models:**
+  * **LRS (Locally Redundant Storage):** Synchronous replication within a single datacenter for development workloads.
+  * **ZRS (Zone-Redundant Storage):** Synchronous replication across three availability zones in a region for high-availability production workloads.
+  * **GRS (Geo-Redundant Storage):** Asynchronous replication to a secondary paired region for disaster recovery protection.
+* **High-Availability Compute:** Deploying Virtual Machine Scale Sets (VMSS) across Availability Zones with automated health repair.
+* **RTO & RPO Standards:**
+  * **RTO (Recovery Time Objective):** Maximum allowable downtime before business services are restored.
+  * **RPO (Recovery Point Objective):** Maximum allowable data loss measured in time (e.g., maximum 15 minutes of transactional delta).
+* **Cross-Region Disaster Recovery:** Primary active region replicated continuously to a secondary paired region using **Azure Site Recovery (ASR)**.
+
+---
+
+## 📊 Enterprise Observability & SRE
+
+* **Centralized Telemetry:** Central Log Analytics Workspace deployed per landing zone with RBAC-controlled access.
+* **Azure Monitor Agent (AMA):** Streamlining agent footprint; utilizing Data Collection Rules (DCR) for targeted log collection.
+* **Action Groups & Alert Routing:** Configuring metric-based and log-based alerts routed dynamically to Microsoft Teams, Slack, and PagerDuty for 24x7 incident response.
+
+---
+
+## 🤝 Vendor Management & Delivery Governance
+
+Senior architects regularly evaluate, negotiate with, and govern technology partners and vendors.
+
+```
+[ RFI (Request for Information) ]
+               |
+[ RFP (Request for Proposal) ]
+               |
+[ Technical Evaluation Matrix (Architecture, Security, Cost) ]
+               |
+[ SOW (Statement of Work) & Commercials ]
+               |
+[ Project Sprints & Deliverable Milestones ]
+               |
+[ Acceptance Criteria Sign-Off & Payment Release ]
+```
+
+### Critical Governance Instruments:
+* **Statement of Work (SOW):** Formal contractual document defining project scope, milestones, deliverables, acceptance criteria, assumptions, and liability terms.
+* **Technical Evaluation Matrix:** Objective scoring of vendor architectures based on performance, security compliance, SLA guarantees, and TCO.
+* **RACI Matrix:**
+  * **R (Responsible):** The execution team performing the technical task.
+  * **A (Accountable):** The single individual answerable for deliverable completion and sign-off.
+  * **C (Consulted):** Domain subject matter experts providing input and review.
+  * **I (Informed):** Stakeholders kept updated on progress and milestones.
+* **Escalation Framework:** Pre-defined escalation paths with clear SLAs for technical blockers, delivery delays, or scope disputes.
 
 ---
 
@@ -458,13 +495,6 @@ flowchart LR
         </a>
       </td>
     </tr>
-    <tr>
-      <td align="center" colspan="2">
-        <a href="https://github.com/Dev-opsRahul">
-          <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dev-opsRahul&theme=react-dark&hide_border=true&area=true&bg_color=0B132B" alt="Activity Graph" width="90%" />
-        </a>
-      </td>
-    </tr>
   </table>
 
 </div>
@@ -473,21 +503,21 @@ flowchart LR
 
 ## 🤝 Connect & Collaborate
 
-I am always interested in discussing **Enterprise Cloud Security Architecture**, **Zero-Trust Infrastructure**, **Kubernetes Platform Engineering**, **SLSA Supply Chain Hardening**, and **AI / LLMOps Security**. Feel free to connect or reach out directly!
+I am always open to discussing **Enterprise Cloud Architecture**, **Large-Scale Migrations (100+ Workloads)**, **Zero-Trust Infrastructure**, **DevSecOps Automation**, and **Technical Leadership**. Feel free to connect or reach out!
 
 <div align="center">
 
 | Platform | Channel | Link |
 | :--- | :--- | :--- |
 | **LinkedIn** | Professional Leadership Profile | [Connect on LinkedIn](https://linkedin.com) |
-| **GitHub** | Technical Architecture Portfolio | [@Dev-opsRahul](https://github.com/Dev-opsRahul) |
-| **Focus Areas** | Strategic Advisory & Delivery | Multi-Cloud Landing Zones, Zero-Trust Architecture, Kubernetes eBPF, AI DevSecOps |
-| **Target Roles** | Executive Technical Roles | Principal DevSecOps Engineer, Distinguished Cloud Security Architect, Staff Platform Lead |
+| **GitHub** | Technical Portfolio & Modules | [@Dev-opsRahul](https://github.com/Dev-opsRahul) |
+| **Focus Areas** | Architectural Specialization | Azure CAF Landing Zones, 100+ App Migrations, DevSecOps, FinOps, SOW/Vendor Governance |
+| **Target Roles** | Enterprise Leadership | Principal Cloud Architect, Senior DevOps Architect, Staff Platform Lead |
 
 </div>
 
 <br/>
 
 <div align="center">
-  <sub>Architected with precision for enterprise-scale infrastructure. Built with Zero-Trust, Microsoft Azure, AWS, and HashiCorp standards.</sub>
+  <sub>Architected with precision for enterprise-scale infrastructure. Built with Microsoft Azure, HashiCorp Terraform, and Cloud Adoption Framework (CAF) standards.</sub>
 </div>
