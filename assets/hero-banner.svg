@@ -1,106 +1,135 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient -->
+    <!-- Styles with Smooth Animations -->
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.25; transform: scale(1); }
+        50% { opacity: 0.55; transform: scale(1.08); }
+      }
+      @keyframes circuitFlow {
+        from { stroke-dashoffset: 80; }
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes textShimmer {
+        0%, 100% { fill: #00E5FF; }
+        50% { fill: #38BDF8; }
+      }
+      .circuit-line {
+        stroke-dasharray: 8, 6;
+        animation: circuitFlow 3s linear infinite;
+      }
+      .glowing-circle {
+        transform-origin: center;
+        animation: pulseGlow 4s ease-in-out infinite;
+      }
+      .shimmer-text {
+        animation: textShimmer 3s ease-in-out infinite;
+      }
+    </style>
+
+    <!-- Deep Blue Enterprise Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070D1E" />
-      <stop offset="50%" stop-color="#0B132B" />
-      <stop offset="100%" stop-color="#0F1D40" />
+      <stop offset="0%" stop-color="#050C1A" />
+      <stop offset="45%" stop-color="#0A1832" />
+      <stop offset="100%" stop-color="#0E2347" />
     </linearGradient>
 
-    <!-- Radial Cyan Glow -->
-    <radialGradient id="cyanGlow" cx="85%" cy="20%" r="60%">
-      <stop offset="0%" stop-color="#00C7FF" stop-opacity="0.25" />
-      <stop offset="100%" stop-color="#0B132B" stop-opacity="0" />
+    <!-- Radial Cyan/Blue Glows -->
+    <radialGradient id="cyanGlow" cx="80%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#0A1832" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Radial Azure Glow -->
-    <radialGradient id="azureGlow" cx="15%" cy="85%" r="50%">
-      <stop offset="0%" stop-color="#0078D4" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#0B132B" stop-opacity="0" />
+    <radialGradient id="azureGlow" cx="20%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#0078D4" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#0A1832" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Text Gradients -->
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Linear Text Gradients -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="50%" stop-color="#E2F1FF" />
-      <stop offset="100%" stop-color="#00C7FF" />
+      <stop offset="40%" stop-color="#E0F2FE" />
+      <stop offset="100%" stop-color="#38BDF8" />
     </linearGradient>
 
-    <linearGradient id="tagGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0078D4" />
-      <stop offset="100%" stop-color="#00C7FF" />
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF" />
+      <stop offset="50%" stop-color="#0078D4" />
+      <stop offset="100%" stop-color="#0284C7" />
     </linearGradient>
 
-    <!-- Grid Pattern -->
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.7" stroke-opacity="0.6"/>
+    <!-- Blueprint Grid Pattern -->
+    <pattern id="blueprintGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1E3A5F" stroke-width="0.75" stroke-opacity="0.45"/>
     </pattern>
   </defs>
 
-  <!-- Background Base -->
-  <rect width="1200" height="320" rx="16" fill="url(#bgGrad)" />
-  <rect width="1200" height="320" rx="16" fill="url(#grid)" />
-  <rect width="1200" height="320" rx="16" fill="url(#cyanGlow)" />
-  <rect width="1200" height="320" rx="16" fill="url(#azureGlow)" />
+  <!-- Background Layers -->
+  <rect width="1200" height="330" rx="16" fill="url(#bgGrad)" />
+  <rect width="1200" height="330" rx="16" fill="url(#blueprintGrid)" />
+  <circle cx="950" cy="90" r="280" fill="url(#cyanGlow)" class="glowing-circle" />
+  <circle cx="200" cy="240" r="220" fill="url(#azureGlow)" class="glowing-circle" />
 
-  <!-- Outer Border -->
-  <rect x="1.5" y="1.5" width="1197" height="317" rx="15" fill="none" stroke="#0078D4" stroke-width="2" stroke-opacity="0.6"/>
+  <!-- Outer Neon Blue Border -->
+  <rect x="2" y="2" width="1196" height="326" rx="15" fill="none" stroke="#0078D4" stroke-width="2" stroke-opacity="0.8"/>
+  <rect x="6" y="6" width="1188" height="318" rx="12" fill="none" stroke="#00E5FF" stroke-width="0.8" stroke-opacity="0.4"/>
 
-  <!-- Left Accent Bar -->
-  <rect x="50" y="55" width="6" height="210" rx="3" fill="url(#tagGrad)" />
+  <!-- Left Glowing Accent Bar -->
+  <rect x="50" y="55" width="7" height="220" rx="3.5" fill="url(#barGrad)" />
 
-  <!-- Eyebrow Tag -->
-  <rect x="75" y="55" width="340" height="28" rx="6" fill="#1E293B" stroke="#00C7FF" stroke-width="1" stroke-opacity="0.7"/>
-  <text x="87" y="74" fill="#00C7FF" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">ENTERPRISE CLOUD ARCHITECTURE &amp; DEVSECOPS</text>
+  <!-- Top Eyebrow Chip -->
+  <rect x="75" y="55" width="370" height="30" rx="6" fill="#0C2340" stroke="#00E5FF" stroke-width="1.2"/>
+  <circle cx="92" cy="70" r="4" fill="#00E5FF" />
+  <text x="105" y="75" fill="#38BDF8" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.6">ENTERPRISE CLOUD ARCHITECTURE &amp; DEVSECOPS</text>
 
-  <!-- Name Header -->
-  <text x="75" y="145" fill="url(#textGrad)" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="52" font-weight="900" letter-spacing="1">RAHUL MAURYA</text>
+  <!-- Candidate Name -->
+  <text x="75" y="145" fill="url(#titleGrad)" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="52" font-weight="900" letter-spacing="1.2">RAHUL MAURYA</text>
 
-  <!-- Subtitle / Roles -->
-  <text x="75" y="190" fill="#94A3B8" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="0.5">
-    Principal Cloud Security Architect <tspan fill="#00C7FF">•</tspan> Senior DevOps &amp; Platform Leader
+  <!-- Subtitle with Glowing Blue Accent -->
+  <text x="75" y="190" fill="#93C5FD" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="0.5">
+    Principal Cloud Security Architect <tspan fill="#00E5FF">•</tspan> Senior DevOps &amp; Platform Leader
   </text>
 
-  <!-- Core Highlights / Metrics Pill Line -->
-  <g transform="translate(75, 225)">
-    <!-- Pill 1 -->
-    <rect x="0" y="0" width="195" height="32" rx="16" fill="#0C1E3D" stroke="#0078D4" stroke-width="1.2"/>
-    <text x="16" y="21" fill="#E2E8F0" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">⏱️ 13+ Years Enterprise IT</text>
+  <!-- 4 Core Metric Pills (Shades of Blue & Cyan) -->
+  <g transform="translate(75, 230)">
+    <!-- Pill 1: Experience -->
+    <rect x="0" y="0" width="195" height="34" rx="17" fill="#0A2540" stroke="#0078D4" stroke-width="1.5"/>
+    <text x="16" y="22" fill="#E0F2FE" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">⏱️ 13+ Years Enterprise IT</text>
 
-    <!-- Pill 2 -->
-    <rect x="210" y="0" width="220" height="32" rx="16" fill="#0C1E3D" stroke="#0078D4" stroke-width="1.2"/>
-    <text x="226" y="21" fill="#E2E8F0" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">☁️ 100+ Workload Migrations</text>
+    <!-- Pill 2: Migrations -->
+    <rect x="210" y="0" width="225" height="34" rx="17" fill="#0A2540" stroke="#0284C7" stroke-width="1.5"/>
+    <text x="226" y="22" fill="#E0F2FE" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">☁️ 100+ Workloads Migrated</text>
 
-    <!-- Pill 3 -->
-    <rect x="445" y="0" width="205" height="32" rx="16" fill="#0C1E3D" stroke="#0078D4" stroke-width="1.2"/>
-    <text x="461" y="21" fill="#E2E8F0" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">🛡️ Zero-Trust Landing Zones</text>
+    <!-- Pill 3: Zero-Trust -->
+    <rect x="450" y="0" width="205" height="34" rx="17" fill="#0A2540" stroke="#00E5FF" stroke-width="1.5"/>
+    <text x="466" y="22" fill="#E0F2FE" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">🛡️ Zero-Trust Landing Zones</text>
 
-    <!-- Pill 4 -->
-    <rect x="665" y="0" width="180" height="32" rx="16" fill="#0C1E3D" stroke="#0078D4" stroke-width="1.2"/>
-    <text x="681" y="21" fill="#E2E8F0" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">💰 FinOps Optimization</text>
+    <!-- Pill 4: FinOps -->
+    <rect x="670" y="0" width="180" height="34" rx="17" fill="#0A2540" stroke="#38BDF8" stroke-width="1.5"/>
+    <text x="686" y="22" fill="#E0F2FE" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">💰 FinOps Optimization</text>
   </g>
 
-  <!-- Right Decorative Architecture Wireframe Motif -->
-  <g transform="translate(930, 60)" opacity="0.85">
-    <!-- Hub Box -->
-    <rect x="40" y="10" width="160" height="65" rx="8" fill="#0C1E3D" stroke="#00C7FF" stroke-width="1.5" stroke-dasharray="4,2"/>
-    <text x="55" y="38" fill="#00C7FF" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">HUB VNet (Transit)</text>
-    <text x="55" y="58" fill="#94A3B8" font-family="'Segoe UI', Roboto, sans-serif" font-size="10">Azure Firewall • Bastion</text>
+  <!-- Right Decorative Animated Blueprint Wireframe -->
+  <g transform="translate(930, 55)">
+    <!-- Hub Box (Central Transit) -->
+    <rect x="35" y="10" width="170" height="68" rx="10" fill="#071E3D" stroke="#00E5FF" stroke-width="2"/>
+    <text x="50" y="38" fill="#00E5FF" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" class="shimmer-text">HUB VNet (Transit)</text>
+    <text x="50" y="58" fill="#93C5FD" font-family="'Segoe UI', Roboto, sans-serif" font-size="10.5">Azure Firewall • Bastion</text>
 
-    <!-- Peering Lines -->
-    <path d="M 120 75 L 120 115" stroke="#0078D4" stroke-width="2" stroke-dasharray="3,3" />
-    <path d="M 60 115 L 180 115" stroke="#0078D4" stroke-width="2" />
-    <path d="M 60 115 L 60 135" stroke="#0078D4" stroke-width="2" />
-    <path d="M 180 115 L 180 135" stroke="#0078D4" stroke-width="2" />
+    <!-- Animated Data Flow Lines -->
+    <path d="M 120 78 L 120 120" stroke="#00E5FF" stroke-width="2.5" class="circuit-line" />
+    <path d="M 55 120 L 185 120" stroke="#0078D4" stroke-width="2" />
+    <path d="M 55 120 L 55 145" stroke="#00E5FF" stroke-width="2" class="circuit-line" />
+    <path d="M 185 120 L 185 145" stroke="#00E5FF" stroke-width="2" class="circuit-line" />
 
-    <!-- Spoke 1 -->
-    <rect x="0" y="135" width="115" height="55" rx="6" fill="#071426" stroke="#0078D4" stroke-width="1"/>
-    <text x="12" y="158" fill="#38BDF8" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700">SPOKE 1: App</text>
-    <text x="12" y="174" fill="#64748B" font-family="'Segoe UI', Roboto, sans-serif" font-size="9">Private Endpoints</text>
+    <!-- Spoke 1: App VNet -->
+    <rect x="0" y="145" width="118" height="60" rx="8" fill="#051937" stroke="#38BDF8" stroke-width="1.5"/>
+    <text x="12" y="170" fill="#E0F2FE" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">SPOKE 1: App</text>
+    <text x="12" y="188" fill="#7DD3FC" font-family="'Segoe UI', Roboto, sans-serif" font-size="9.5">Private Endpoints</text>
 
-    <!-- Spoke 2 -->
-    <rect x="125" y="135" width="115" height="55" rx="6" fill="#071426" stroke="#0078D4" stroke-width="1"/>
-    <text x="137" y="158" fill="#38BDF8" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700">SPOKE 2: Shared</text>
-    <text x="137" y="174" fill="#64748B" font-family="'Segoe UI', Roboto, sans-serif" font-size="9">CI/CD &amp; Security</text>
+    <!-- Spoke 2: Shared VNet -->
+    <rect x="128" y="145" width="118" height="60" rx="8" fill="#051937" stroke="#38BDF8" stroke-width="1.5"/>
+    <text x="138" y="170" fill="#E0F2FE" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">SPOKE 2: Shared</text>
+    <text x="138" y="188" fill="#7DD3FC" font-family="'Segoe UI', Roboto, sans-serif" font-size="9.5">CI/CD &amp; Security</text>
   </g>
 </svg>

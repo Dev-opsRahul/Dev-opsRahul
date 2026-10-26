@@ -1,23 +1,33 @@
 <div align="center">
 
-  <!-- ================= HERO BANNER ================= -->
+  <!-- ================= ANIMATED HERO BANNER ================= -->
   <a href="https://github.com/Dev-opsRahul">
     <img src="./assets/hero-banner.svg" alt="Rahul Maurya - Principal Cloud Architect & Senior DevSecOps Leader" width="100%" />
   </a>
 
-  <br/><br/>
+  <!-- ================= DYNAMIC ANIMATED TYPING TERMINAL ================= -->
+  <a href="https://github.com/Dev-opsRahul">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=1100&color=00E5FF&center=true&vCenter=true&multiline=true&width=900&height=90&lines=13%2B+Years+Enterprise+IT+Experience+%E2%80%A2+Global-Scale+Architecture;Principal+Cloud+Security+Architect+%E2%80%A2+Multi-Cloud+Landing+Zones;100%2B+Enterprise+Workload+Migrations+to+Azure+with+Zero+Downtime;Zero-Trust+DevSecOps+%E2%80%A2+Keyless+OIDC+%26+Automated+State+Locking;FinOps+Cloud+Financial+Management+%E2%80%A2+%242.4M%2B+Cost+Optimization" alt="Dynamic Typing SVG Animation" />
+  </a>
+
+  <br/>
 
   <!-- ================= STATUS BADGES ================= -->
   <p align="center">
     <img src="https://img.shields.io/badge/Role-Principal_Cloud_Architect_%26_DevSecOps_Lead-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Role: Principal Cloud Architect" />
     <img src="https://img.shields.io/badge/Experience-13%2B_Years_Enterprise_IT-00C7FF?style=for-the-badge&logo=clockify&logoColor=black" alt="Experience: 13+ Years" />
-    <img src="https://img.shields.io/badge/Scale-100%2B_Workloads_Migrated-00D26A?style=for-the-badge&logo=azure-devops&logoColor=white" alt="Scale: 100+ Migrations" />
+    <img src="https://img.shields.io/badge/Scale-100%2B_Workloads_Migrated-0284C7?style=for-the-badge&logo=azure-devops&logoColor=white" alt="Scale: 100+ Migrations" />
     <img src="https://img.shields.io/badge/IaC-HashiCorp_Terraform_Enterprise-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="IaC: Terraform" />
-    <img src="https://img.shields.io/badge/Security-Zero_Trust_%26_Key_Vault_HSM-0284C7?style=for-the-badge&logo=azure-keyvault&logoColor=white" alt="Security: Zero Trust" />
+    <img src="https://img.shields.io/badge/Security-Zero_Trust_%26_Key_Vault_HSM-00E5FF?style=for-the-badge&logo=azure-keyvault&logoColor=black" alt="Security: Zero Trust" />
     <a href="https://linkedin.com" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
   </p>
+
+  <!-- ================= DYNAMIC GITHUB TROPHIES ================= -->
+  <a href="https://github.com/Dev-opsRahul">
+    <img src="https://github-profile-trophy.vercel.app/?username=Dev-opsRahul&theme=onedark&no-frame=true&no-bg=true&margin-w=4&margin-h=4" alt="Rahul Maurya GitHub Trophies" />
+  </a>
 
   <!-- ================= QUICK NAVIGATION ================= -->
   <p align="center">
@@ -171,61 +181,40 @@ I guide enterprise transformations using the Microsoft CAF framework across six 
 
 Centralized network perimeter providing encrypted hybrid transit, deep packet inspection, and isolated workload communication:
 
-```
-                       [ On-Premises Datacenter ]
-                                   |
-                     (ExpressRoute / S2S VPN Gateway)
-                                   |
-+----------------------------------v----------------------------------+
-|                   HUB VNet (Central Connectivity)                   |
-|                                                                     |
-|  +--------------------+   +-------------------+   +--------------+  |
-|  | Azure Firewall /   |   | GatewaySubnet     |   | Private DNS  |  |
-|  | NVA (Inspection)   |   | (VPN/ER Gateway)  |   | Zones        |  |
-|  +---------+----------+   +-------------------+   +--------------+  |
-+------------|--------------------------------------------------------+
-             | (VNet Peering + UDR: 0.0.0.0/0 -> Firewall IP)
-             +-----------------------+-----------------------+
-             |                                               |
-+------------v------------+                     +------------v------------+
-|  Spoke 1: App VNet      |                     |  Spoke 2: Shared VNet   |
-|  - App Tier Subnets     |                     |  - CI/CD Runners        |
-|  - DB Tier Subnets      |                     |  - Bastion Host         |
-|  - Private Endpoints    |                     |  - Security Tools       |
-+-------------------------+                     +-------------------------+
-```
-
 ```mermaid
 flowchart TD
-    OnPrem["🏢 On-Premises Datacenter"] -->|"ExpressRoute / S2S VPN"| GW["GatewaySubnet\n(VPN / ER Gateway)"]
+    %% COLORFUL ENTERPRISE BLUE PALETTE DEFINITIONS
+    classDef onprem fill:#0A192F,stroke:#38BDF8,stroke-width:2px,color:#FFFFFF;
+    classDef hub fill:#0D253F,stroke:#00E5FF,stroke-width:2.5px,color:#FFFFFF;
+    classDef security fill:#081B33,stroke:#0284C7,stroke-width:2px,color:#E0F2FE;
+    classDef spoke fill:#05182C,stroke:#0078D4,stroke-width:2px,color:#FFFFFF;
+    classDef subnet fill:#0A2744,stroke:#38BDF8,stroke-width:1.5px,color:#E0F2FE;
+
+    OnPrem["🏢 On-Premises Datacenter\n(Corporate WAN / Branch Offices)"]:::onprem -->|"ExpressRoute / S2S VPN Gateway"| GW["GatewaySubnet\n(VPN / ExpressRoute Gateway)"]:::security
 
     subgraph Hub ["🌐 Central Connectivity Hub VNet (10.100.0.0/16)"]
-        GW --> HubRouter["Azure Virtual WAN / Hub Router"]
-        HubRouter --> AzFW["🔥 Azure Firewall Premium\n(IDS / IPS • TLS Inspection • Outbound Egress)"]
-        HubRouter --> Bastion["🛡️ Azure Bastion PaaS Host\n(Encrypted Web RDP/SSH Management)"]
-        HubRouter --> DNS["🔗 Central Private DNS Zones\n(privatelink.vaultcore.azure.net, blob)"]
+        GW --> HubRouter["Azure Virtual WAN / Hub Core Router"]:::hub
+        HubRouter --> AzFW["🔥 Azure Firewall Premium\n(IDS / IPS • Outbound TLS Inspection • 0.0.0.0/0)"]:::security
+        HubRouter --> Bastion["🛡️ Azure Bastion PaaS Host\n(TLS Web RDP / SSH Host)"]:::security
+        HubRouter --> DNS["🔗 Central Private DNS Zones\n(privatelink.vaultcore.azure.net, blob)"]:::security
     end
 
-    AzFW -->|"Encrypted VNet Peering (UDR 0.0.0.0/0 -> Firewall IP)"| Spoke1
+    AzFW -->|"Encrypted VNet Peering (UDR 0.0.0.0/0 -> AzFW)"| Spoke1
     AzFW -->|"Encrypted VNet Peering"| Spoke2
 
     subgraph Spoke1 ["🏢 Spoke 1: Application Workload VNet (10.200.0.0/16)"]
-        AppSubnet["App Tier Subnet (10.200.1.0/24)\nPrivate AKS / VMSS"]
-        DBSubnet["DB Tier Subnet (10.200.2.0/24)\nManaged Azure SQL"]
-        PESubnet["Private Endpoints Subnet (10.200.3.0/24)\nKey Vault HSM & Storage Endpoints"]
+        AppSubnet["App Tier Subnet (10.200.1.0/24)\nPrivate AKS / VMSS Compute"]:::subnet
+        DBSubnet["DB Tier Subnet (10.200.2.0/24)\nManaged Azure SQL Databases"]:::subnet
+        PESubnet["Private Endpoints Subnet (10.200.3.0/24)\nKey Vault HSM & Storage Endpoints"]:::subnet
         AppSubnet --> PESubnet
         AppSubnet --> DBSubnet
     end
 
     subgraph Spoke2 ["🛠️ Spoke 2: Shared Services VNet (10.300.0.0/16)"]
-        RunnerSubnet["CI/CD Self-Hosted Runners Subnet"]
-        SecSubnet["Security & Vulnerability Scanners"]
+        RunnerSubnet["CI/CD Self-Hosted Runners Subnet"]:::subnet
+        SecSubnet["Security Scanners & Artifact Mirrors"]:::subnet
     end
 
-    classDef default fill:#0B132B,stroke:#0078D4,stroke-width:1.5px,color:#F8FAFC;
-    classDef security fill:#17172E,stroke:#00C7FF,stroke-width:2px,color:#E0F2FE;
-    classDef spoke fill:#071426,stroke:#38BDF8,stroke-width:2px,color:#FFFFFF;
-    class AzFW,Bastion,DNS security;
     class Spoke1,Spoke2 spoke;
 ```
 
@@ -241,24 +230,19 @@ flowchart TD
 
 Proven enterprise methodology for migrating 100+ applications across Dev, UAT, and Production from on-prem datacenters to Azure:
 
-```
-+---------------+     +--------------+     +------------+     +-----------+     +-------------+
-|   Discovery   | --> |  Assessment  | --> | Readiness  | --> |  Cutover  | --> |  Hypercare  |
-| Inventory,    |     | Compatibility|     | Landing    |     | Downtime  |     | 24x7 War    |
-| Dependencies  |     | & TCO ROI    |     | Zone Ready |     | Window    |     | Room Support|
-+---------------+     +--------------+     +------------+     +-----------+     +-------------+
-```
-
 ```mermaid
 flowchart LR
-    Step1["1️⃣ Discovery\n• Azure Migrate Appliance\n• Complete Asset Inventory\n• Dependency Mapping"] --> Step2["2️⃣ Assessment\n• Readiness & Compatibility\n• TCO & ROI Financials\n• Target SKU Sizing"]
-    Step2 --> Step3["3️⃣ Readiness\n• Landing Zone Validated\n• ExpressRoute & Hub Ready\n• Pilot Migration Wave"]
-    Step3 --> Step4["4️⃣ Cutover\n• Delta Replication Sync\n• DNS TTL Reduction\n• Maintenance Window Cutover"]
-    Step4 --> Step5["5️⃣ Hypercare\n• 24x7 War Room Support\n• Performance Baseline\n• Operational Handover"]
+    %% COLORFUL ENTERPRISE BLUE PALETTE DEFINITIONS
+    classDef step1 fill:#081B33,stroke:#0078D4,stroke-width:2px,color:#FFFFFF;
+    classDef step2 fill:#0A2342,stroke:#0284C7,stroke-width:2px,color:#FFFFFF;
+    classDef step3 fill:#0C2E54,stroke:#38BDF8,stroke-width:2px,color:#FFFFFF;
+    classDef step4 fill:#0E3B66,stroke:#00E5FF,stroke-width:2.5px,color:#E0F7FA;
+    classDef step5 fill:#081E38,stroke:#00C7FF,stroke-width:2px,color:#FFFFFF;
 
-    classDef default fill:#0B132B,stroke:#0078D4,stroke-width:1.5px,color:#F8FAFC;
-    classDef highlight fill:#0C1E3D,stroke:#00C7FF,stroke-width:2px,color:#E0F2FE;
-    class Step3,Step4 highlight;
+    Step1["1️⃣ Discovery\n• Azure Migrate Appliance\n• Full Asset Inventory\n• Dependency Mapping"]:::step1 --> Step2["2️⃣ Assessment\n• Readiness & Compatibility\n• TCO & ROI Financials\n• Target SKU Sizing"]:::step2
+    Step2 --> Step3["3️⃣ Readiness\n• Landing Zone Validated\n• ExpressRoute & Hub Ready\n• Pilot Migration Wave"]:::step3
+    Step3 --> Step4["4️⃣ Cutover\n• Delta Replication Sync\n• DNS TTL Reduction\n• Maintenance Window Cutover"]:::step4
+    Step4 --> Step5["5️⃣ Hypercare\n• 24x7 War Room Support\n• Performance Baseline\n• Operational Handover"]:::step5
 ```
 
 ### Comprehensive Migration Checklists:
@@ -283,38 +267,18 @@ flowchart LR
 
 Automating infrastructure delivery through repeatable, modular HCL and strict remote state locking:
 
-```
-[ Terraform Git Repo ] 
-         |
-         v
-[ Linting (tflint) & Format (terraform fmt) ]
-         |
-         v
-[ Security Scanning (tfsec / Checkov / Trivy) ]
-         |
-         v
-[ Cost Estimation (Infracost) ]
-         |
-         v
-[ Terraform Plan & Drift Detection Pipeline ]
-         |
-         v
-[ Manual Peer Approval (Production Gate) ]
-         |
-         v
-[ Terraform Apply (Remote State locked via Azure Blob Storage) ]
-```
-
 ```mermaid
 flowchart LR
-    Pipeline1["🚀 Pipeline Run A"] -->|"terraform plan/apply"| Blob["📦 Azure Blob Storage\n(Container: tfstate)"]
-    Pipeline2["⚠️ Pipeline Run B"] -.->|"Lease Lock Conflict\n(HTTP 409: In Progress)"| Blob
-    Blob -->|"Exclusive Lease Lock"| Lock["🔒 Azure Blob Lease\n(Prevents State Drift & Concurrency Collisions)"]
-    Blob -->|"Server-Side AES-256"| StateFile["landing-zone.tfstate\n(Encrypted at Rest)"]
+    %% COLORFUL ENTERPRISE BLUE PALETTE
+    classDef pipeline fill:#081B33,stroke:#0078D4,stroke-width:2px,color:#FFFFFF;
+    classDef blob fill:#0A2540,stroke:#38BDF8,stroke-width:2px,color:#FFFFFF;
+    classDef lock fill:#1E293B,stroke:#F59E0B,stroke-width:2.5px,color:#FEF3C7;
+    classDef state fill:#051D3B,stroke:#00E5FF,stroke-width:2px,color:#E0F7FA;
 
-    classDef default fill:#0B132B,stroke:#0078D4,stroke-width:1.5px,color:#F8FAFC;
-    classDef lock fill:#1E293B,stroke:#F59E0B,stroke-width:2px,color:#FEF3C7;
-    class Lock lock;
+    Pipeline1["🚀 Pipeline Execution A\n(terraform plan / apply)"]:::pipeline -->|"Request Exclusive Lock"| Blob["📦 Azure Blob Storage\n(Container: tfstate)"]:::blob
+    Pipeline2["⚠️ Pipeline Execution B\n(Concurrent Request)"]:::pipeline -.->|"HTTP 409: Conflict\n(Lease In Progress)"| Blob
+    Blob -->|"Exclusive Lease Lock"| Lock["🔒 Azure Blob Lease Lock\n(Guarantees State Consistency & Concurrency)"]:::lock
+    Blob -->|"Server-Side AES-256"| StateFile["landing-zone.tfstate\n(Encrypted at Rest via CMK)"]:::state
 ```
 
 ### Production Remote State Backend Configuration:
@@ -345,6 +309,20 @@ terraform {
 ---
 
 ## 🔄 Azure Repos & DevSecOps Pipeline Architecture
+
+```mermaid
+flowchart LR
+    %% COLORFUL SHADES OF BLUE CI/CD PIPELINE
+    classDef stage fill:#0A2342,stroke:#0078D4,stroke-width:2px,color:#FFFFFF;
+    classDef gate fill:#1E293B,stroke:#F59E0B,stroke-width:2.5px,color:#FEF3C7;
+    classDef apply fill:#082B48,stroke:#00E5FF,stroke-width:2.5px,color:#E0F7FA;
+
+    PR["📥 Pull Request Opened"] --> Gate1["Stage 1: Lint & Secrets\n• terraform fmt -check\n• tflint --recursive\n• gitleaks detect"]:::stage
+    Gate1 --> Gate2["Stage 2: Static Security\n• checkov -d . (CIS Bench)\n• tfsec . (SARIF Report)"]:::stage
+    Gate2 --> Gate3["Stage 3: Speculative Plan\n• Keyless OIDC Azure Login\n• terraform plan -out=tfplan"]:::stage
+    Gate3 --> Review{"Stage 4: Approval Gate\n• Tech Lead Review\n• Production PIM Sign-Off"}:::gate
+    Review -->|"Merge to Main"| Gate4["Stage 5: Keyless Apply\n• Download Plan Artifact\n• terraform apply tfplan"]:::apply
+```
 
 * **Branching Strategy:** Trunk-based development utilizing short-lived feature branches (`feature/*`, `fix/*`).
 * **Branch Protection Policies:** Mandatory Pull Request (PR) reviews with minimum 2 senior approvals; `CODEOWNERS` enforcement; linear commit history; direct pushes and branch deletion strictly disabled on `main`.
@@ -479,19 +457,26 @@ Senior architects regularly evaluate, negotiate with, and govern technology part
     <tr>
       <td align="center" width="50%">
         <a href="https://github.com/Dev-opsRahul">
-          <img src="https://github-readme-stats.vercel.app/api?username=Dev-opsRahul&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B132B&title_color=00C7FF&icon_color=0078D4&text_color=E2E8F0" alt="GitHub Profile Stats" width="100%" />
+          <img src="https://github-readme-stats.vercel.app/api?username=Dev-opsRahul&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B132B&title_color=00E5FF&icon_color=0078D4&text_color=E0F2FE" alt="GitHub Profile Stats" width="100%" />
         </a>
       </td>
       <td align="center" width="50%">
         <a href="https://github.com/Dev-opsRahul">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dev-opsRahul&layout=compact&theme=tokyonight&hide_border=true&bg_color=0B132B&title_color=00C7FF&text_color=E2E8F0" alt="Top Languages Used" width="100%" />
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dev-opsRahul&layout=compact&theme=tokyonight&hide_border=true&bg_color=0B132B&title_color=00E5FF&text_color=E0F2FE" alt="Top Languages Used" width="100%" />
         </a>
       </td>
     </tr>
     <tr>
       <td align="center" colspan="2">
         <a href="https://github.com/Dev-opsRahul">
-          <img src="https://streak-stats.demolab.com?user=Dev-opsRahul&theme=tokyonight&hide_border=true&background=0B132B&ring=00C7FF&fire=0078D4&currStreakLabel=00C7FF&currStreakNum=FFFFFF" alt="GitHub Streak Tracker" width="90%" />
+          <img src="https://streak-stats.demolab.com?user=Dev-opsRahul&theme=tokyonight&hide_border=true&background=0B132B&ring=00E5FF&fire=0078D4&currStreakLabel=00E5FF&currStreakNum=FFFFFF" alt="GitHub Streak Tracker" width="90%" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2">
+        <a href="https://github.com/Dev-opsRahul">
+          <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dev-opsRahul&theme=react-dark&hide_border=true&area=true&bg_color=0B132B&color=00E5FF&line=0078D4&point=38BDF8" alt="Activity Graph" width="90%" />
         </a>
       </td>
     </tr>
